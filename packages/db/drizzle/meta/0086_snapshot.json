@@ -1,5 +1,5 @@
 {
-  "id": "fb829981-d792-4158-a06d-1fd7313d90c8",
+  "id": "78faf767-b110-4ac3-966e-07f3ced5db5f",
   "prevId": "34ef594d-bdb7-43df-a351-bf2550b16bcf",
   "version": "7",
   "dialect": "postgresql",
@@ -4960,12 +4960,6 @@
           "primaryKey": false,
           "notNull": true
         },
-        "message_text": {
-          "name": "message_text",
-          "type": "text",
-          "primaryKey": false,
-          "notNull": false
-        },
         "created_at": {
           "name": "created_at",
           "type": "timestamp",
@@ -5468,6 +5462,13 @@
           "type": "text",
           "primaryKey": false,
           "notNull": false
+        },
+        "version": {
+          "name": "version",
+          "type": "integer",
+          "primaryKey": false,
+          "notNull": true,
+          "default": 1
         },
         "created_at": {
           "name": "created_at",
